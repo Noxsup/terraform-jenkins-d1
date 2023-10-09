@@ -1,6 +1,6 @@
 # Settings block
 terraform {
-    required_version = "~> 1.4.2" #contstraints 
+    #required_version = "~> 1.4.2" #contstraints 
     # Terraform providers required
     required_providers {
         aws = { # Local name for the manifest
