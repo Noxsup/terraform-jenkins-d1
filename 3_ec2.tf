@@ -1,5 +1,5 @@
 resource "aws_key_pair" "ssh-key" {
-  key_name = "terraform"
+  key_name = "docker-server-key"
   public_key = var.public_key_data
   # in the variables, i will be defining the key 
   # public_key = file("id_rsa.pub")
